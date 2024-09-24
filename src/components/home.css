@@ -1,18 +1,20 @@
 section{
-    background-color: aqua;
+    
 }
 
 .NavigationBar{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
+
+    background-color: beige;
+    margin-bottom: 10px;
 }
 
 .title{
     margin-left: 100px;
+  
 }
-
-
 .addButton{
     max-width: 200px;
     max-height: 40px;
@@ -24,6 +26,30 @@ section{
     font-weight: bold;
     font-size: 20px;
 
-    margin-left: 500px;
+    margin-left: 450px;
     margin-top: 20px;
+}
+
+.principal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.FilterableTasksList{
+    border-style: groove;
+    border-color: black;
+
+    font-size: 15px;
+    text-align: center;
+}    
+
+.TaskDetailsView{
+    border-style:groove;
+    border-color: black;
+
+    
 }
