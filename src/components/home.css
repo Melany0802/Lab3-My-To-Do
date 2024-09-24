@@ -1,0 +1,29 @@
+section{
+    background-color: aqua;
+}
+
+.NavigationBar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+}
+
+.title{
+    margin-left: 100px;
+}
+
+
+.addButton{
+    max-width: 200px;
+    max-height: 40px;
+    border-radius: 10px;
+    background-color: rgb(0, 166, 255);
+    border-color: rgb(0, 166, 255);
+    color: white;
+
+    font-weight: bold;
+    font-size: 20px;
+
+    margin-left: 500px;
+    margin-top: 20px;
+}
